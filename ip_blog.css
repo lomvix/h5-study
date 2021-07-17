@@ -1,0 +1,376 @@
+body{
+	background-color:#F3F3F3;
+	text-align: center;
+	font-family:Font;
+	/*background:url(背景9.png) top left;*/
+	background-color: #7bbfea;
+    background-size:100%;
+}
+
+
+#top_menu_bar{
+	/*background-color:#F3F3F3;*/
+	background-color:#FFF;
+	height:60px;
+	width:100%;
+	position:fixed;
+    top:0;
+	left:0;
+	z-index:10;
+	color: #707070
+}
+#ip_icon{
+	height: 50px;
+	width: 100px;
+	margin:7px 10px 10px 120px;
+	float:left;
+}
+#top_menu_bar_button_1{
+    margin:20px 0px 10px 50px;
+	height:35px;
+	font-size:17px;
+	float:left;
+}
+#top_menu_bar_button{
+	margin:20px 0px 10px 20px;
+	height:35px;
+	font-size:17px;
+	float:left;
+}
+#input_frame{
+	margin:17px 0px 10px 80px;
+	height:35px;
+	width: 260px;
+	font-size:17px;
+	float:left;
+	border-radius:20px;
+	background-color: #F0F0F0;
+	color:	#8a8c8e;
+	text-align: left;
+	text-indent:30px;
+	line-height:33px;
+}
+#input_button{
+	margin:17px 0px 10px 10px;
+	height:35px;
+	width: 70px;
+	font-size:17px;
+	float:left;
+	border-radius:20px;
+	background-color:rgba(34,75,143,1.00);
+	color:#EEEEEE;
+	line-height:34px;
+}
+#img_1{
+	margin:15px 30px 10px 0px;
+	float:right;
+	height: 40px;
+	width: 40px;
+}
+#img_2{
+	margin:15px 16px 10px 0px;
+	float:right;
+	height: 40px;
+	width: 30px;
+}
+
+
+#personal_information{
+	margin:5px 10% 10% 5.5%;
+	text-align: center;
+	width:60%;
+    top:70px;
+	position:absolute;	
+	background-color:#fff;
+	font-family:Font;
+	height:330px;
+	border:none;
+	border-radius:7px;
+}
+#personal_information_background{
+	position:absolute;
+	background-color: rgba(34,75,143,1.00);
+	height: 200px;
+	width: 100%;
+	border-radius:7px 7px 0 0;
+	background:url(背景10.png) top left;
+}
+#picture{
+	position:absolute;
+	height: 158.4px;
+	width: 158.4px;
+	left: 25;
+	top:140px;
+	border-radius:10px;
+}
+#name{
+	position:absolute;
+	left: 210;
+	top:215px;
+	font-size:25px;
+	font-family:"黑体";
+}
+#say{
+	color:	#8a8c8e;
+	position:absolute;
+	left: 210;
+	top:260px;
+	font-size:10px;
+	font-family:"黑体";
+}
+#change_detail{
+	border-color: rgba(34,75,143,1.00);
+	border-style:solid;
+	border-width:1.5px;
+	border-radius:7px;
+	height: 33px;
+	width: 100px;
+	position:absolute;
+	right: 10;
+	top:260px;
+	font-size:15px;
+	font-family:"黑体";
+	color:  rgba(34,75,143,1.00);
+	line-height:34px;
+}
+
+
+#creator_center{
+	margin:5px 10% 10% 67%;
+	text-align: center;
+	width:27.5%;
+    top:70px;
+	position:absolute;
+	background-color:#fff;
+	font-family:Font;
+	height:189px;
+	border-radius:7px;
+}
+#creator_center_title{
+	top:20px;
+	left:40%;
+	position:absolute;
+	font-family:"黑体";
+	color: aliceblue;
+}
+#creator_center_background{
+	position:absolute;
+	background-color: rgba(34,75,143,1.00);
+	height: 55px;
+	width: 100%;
+	border-radius:7px 7px 15px 15px;
+}
+#fans{
+    top:80px;
+	position:absolute;
+	font-family:"黑体";
+	font-size: 20px;
+	margin:5px 0 0 15%;
+}
+#following{
+	top:80px;
+	position:absolute;
+	font-family:"黑体";
+	font-size: 20px;
+	margin:5px 0 0 35%;	
+}
+#works{
+	top:80px;
+	position:absolute;
+	font-family:"黑体";
+	font-size: 20px;
+	margin:5px 0 0 55%;	
+}
+#blog{
+	top:80px;
+	position:absolute;
+	font-family:"黑体";
+	font-size: 20px;
+	margin:5px 0 0 75%;	
+}
+
+#data_center{
+	margin:5px 10% 10% 67%;
+	text-align: center;
+	width:27.5%;
+    top:270px;
+	position:absolute;
+	background-color:#fff;
+	font-family:Font;
+	height:130px;
+	border-radius:7px;
+}
+#data_center_background{
+    position:absolute;
+	background-color: rgba(34,75,143,1.00);
+	height: 100%;
+	width: 20%;
+	border-radius:7px 15px 15px 7px;
+	color: #ffffff;
+    line-height:31px;
+	font-family:"黑体";
+}
+#data_title{
+	color:  rgba(34,75,143,1.00);
+	font-weight: 700px;
+}
+#fans_data{
+	top:25px;
+	position:absolute;
+	font-family:"黑体";
+	font-size: 20px;
+	margin:5px 0 0 30%;
+}
+#read{
+    top:25px;
+	position:absolute;
+	font-family:"黑体";
+	font-size: 20px;
+	margin:5px 0 0 60%;
+}
+
+#hot{
+	margin:5px 10% 10% 67%;
+	text-align: center;
+	width:27.5%;
+    top:270px;
+	position:absolute;
+	background-color:#fff;
+	font-family:Font;
+	height:130px;
+	border-radius:7px;
+}
+
+
+#blog_block_left{
+	margin:0px 10% 10% 20px;
+	text-align: center;
+	width:300px;
+    top:425px;
+	left: 66px;
+	position:absolute;
+	float: left;
+	background-color:#fff;
+	font-family:Font;
+	height:350px;
+	border:none;
+	border-radius:7px;
+}
+#blogmenu_left{
+	text-align: ;
+	font-size: 14px;
+	color:  rgba(34,75,143,1.00);
+	font-family:"黑体";
+	line-height: 5;
+	
+}
+/*#input_left{
+	border: 3px solid #B1B1B1;
+	width: 90%;
+	height: 70%;
+	left: 4%;
+	position:relative;
+	top: 4%
+}*/
+#bottom_left_1{
+	left: 0;
+	position: absolute;
+	top: 83%;
+	background-color:   rgba(34,75,143,1.00);
+	height: 60px;
+	color: #fff;
+	font-family:"黑体";
+	border-radius: 0 90px 0px 0;
+	width: 80px;
+	text-align: left;
+	
+}
+#bottom_left_2{
+	right: 10;
+		top: 87%;
+	position: absolute;
+	color:  rgba(34,75,143,1.00);
+	font-family:"黑体";
+	
+}
+#blog_block_min{
+	margin:0px 10% 10% 45px;
+	text-align: center;
+	width:700px;
+    top:425px;
+	left: 366px;
+	position:absolute;
+	background-color:#fff;
+	height:350px;
+	border:none;
+	border-radius:7px;
+}
+#blogmenu_min{
+	text-align: left;
+	position: absolute;
+	left: 14%; 
+	font-size: 17;
+}
+#blogmenuminlink{
+	border: 4px solid #7bbfea;
+	width: 99.7%;
+	position: absolute;
+	top:24;
+	background-color: #7bbfea;
+}
+#blogmenumintitle{
+	position: absolute;
+	left: 6%;
+	top:1;
+	font-size: 17;
+	color: rgba(34,75,143,1.00);
+}
+#title_left{
+	position: absolute;
+	top: 40px;
+	left: 20;
+	color:	#8a8c8e;
+}
+#title_right{
+	position: absolute;
+	top: 40px;
+	right: 20;
+	color:	#8a8c8e;
+}
+#picture_1{
+	height: 250;
+	top: 90;
+	position: absolute;
+	left: 10
+}
+#saying{
+	position:absolute;
+	top: 100;
+	right: 200;
+}
+#blog_block_right{
+    margin:0px 10% 10% 20px;
+	text-align: center;
+	width:245px;
+    top:425px;
+	left: 1115px;
+	position:absolute;
+	float: left;
+	background-color:#fff;
+	height:350px;
+	border:none;
+	border-radius:7px;
+}
+#bottom_right_1{
+	right: 0;
+	position: absolute;
+	top: 0;
+	background-color:   rgba(34,75,143,1.00);
+	height: 60px;
+	color: #fff;
+	font-family:"黑体";
+	border-radius: 0px 0px 0px 90px;
+	width: 80px;
+	text-align:right;
+	line-height: 1.4;
+}

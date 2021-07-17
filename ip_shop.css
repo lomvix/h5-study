@@ -1,0 +1,357 @@
+body{
+	margin: 0px;
+    padding: 0px;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(102, 102, 102);
+    font: 12px / 1.5 "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+    background-color: rgb(244, 244, 244);
+}
+#top_menu_bar{
+    -webkit-font-smoothing: antialiased;
+    font: 12px / 1.5 "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+    padding: 0px;
+    margin: auto;
+    width: 990px;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(153, 153, 153);
+}
+#header{
+    -webkit-font-smoothing: antialiased;
+    color: rgb(102, 102, 102);
+    font: 12px / 1.5 "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+#w{
+    -webkit-font-smoothing: antialiased;
+    color: rgb(102, 102, 102);
+    font: 12px / 1.5 "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+    padding: 0px;
+    margin: auto;
+    width: 990px;
+    position: relative;
+    z-index: 11;
+    height: 140px;
+}
+#search_box{
+	-webkit-font-smoothing: antialiased;
+    color: rgb(102, 102, 102);
+    font: 12px / 1.5 "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 25px;
+    height: 32px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(34,75,143,1.00);
+    border-image: initial;
+    background: rgb(255, 255, 255);
+    width: 500px;
+    left: 220px;
+}
+#bottom{
+	-webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-family: Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    position: absolute;
+    top: 0;
+    outline: none;
+    border-radius: 0;
+    right: 0;
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    transition: background .2s ease;
+    background-color:rgba(34,75,143,1.00);
+	text-align: center;
+}
+#hotword{
+	-webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 65px;
+    height: 20px;
+    line-height: 20px;
+    left: 220px;
+    width: 450px;
+}
+#hotword_1{
+	-webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+    color: #7bbfea;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#hotword_2{
+	    -webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #999;
+}
+#logo{
+    margin: 0 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    width: 190px;
+    height: 100px;
+	position: absolute;
+	top: 10px;
+	left: -40;
+}
+#group{
+    -webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#list{
+	 -webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    float: left;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    margin: 0 11px;
+    font-weight: 700;
+    color: #7bbfea;
+	left: 210;
+	top:100;
+}
+#shopping_cart{
+	 -webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    top: 25px;
+    z-index: 21;
+    right: -200px;
+    color: rgba(34,75,143,1.00);
+	font-weight: 700;
+	font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    float: left;
+    border: 1px solid #e3e4e5;
+    width: 130px;
+    height: 34px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 34px;
+}
+#topmenubox1{
+	-webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    line-height: 30px;
+    color: #999;
+    list-style: none;
+    float: right;
+	left:100px;
+    margin: 0 0 0 20;
+    padding: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#topmenubox2{
+	-webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    line-height: 30px;
+    color: #999;
+    list-style: none;
+    float: left;
+    margin: 0 0 0 20;
+    padding: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#location{
+	-webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    line-height: 30px;
+    color: #999;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#leftmenu{
+    position:absolute;
+    z-index: 3;
+	-webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color: #666;
+	top:16px;
+    width: 190px;
+    float: left;
+    height: 480px;
+	background-color: #FFFFFF;
+	left: 98px;
+    top:185px;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+}
+#thememarket{
+	-webkit-font-smoothing: antialiased;
+	background-color: rgba(34,75,143,1.00);
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 2.5;
+}
+#minmenu_1{
+	background-color: #FFFFFF;
+    height: 480px;
+    float: left;
+    position: absolute;
+    width: 590px;
+    left: 298px;
+    top:185px;
+    z-index: 0;
+	background:url(advertisement_1_1_1.png) top left;
+}
+#minmenu_2{
+	background-color: #FFFFFF;
+    height: 115px;
+    float:left;
+    position:absolute;
+    width: 200px;
+    left: 900px;
+	top:185px;
+    z-index: 0;
+    background:url(advertisement_2.png) top left;
+}
+#minmenu_3{
+	background-color: #FFFFFF;
+    height: 154px;
+    float:left;
+    position:absolute;
+    width: 200px;
+    left: 900px;
+	top:185px;
+    z-index: 0;
+	//border: 6px solid rgba(34,75,143,1.00);
+	color: rgba(34,75,143,1.00);
+	text-align: center;
+	line-height: 3;
+	font-size: 20px;
+}
+#minmenu_4{
+	background-color: #FFFFFF;
+    height: 154px;
+    float:left;
+    position:absolute;
+    width: 200px;
+    left: 900px;
+	top:355px;
+	//border: 6px solid rgba(34,75,143,1.00);
+	color: rgba(34,75,143,1.00);
+	text-align: center;
+	line-height: 3;
+	font-size: 20px;
+    z-index: 0;
+}
+#minmenu_5{
+	background-color: #FFFFFF;
+    height: 146px;
+    float:left;
+    position:absolute;
+    width: 200px;
+    left: 900px;
+	top:520px;
+    z-index: 0;
+	/*background:url(advertisement_5.png) top left;*/
+	//border: 6px solid rgba(34,75,143,1.00);
+	color: rgba(34,75,143,1.00);
+	text-align: center;
+	line-height: 3;
+	font-size: 20px;
+}
+#minmenubotton{
+	height: 30px;
+	width: 100px;
+	background-color: rgba(34,75,143,1.00);
+	position: absolute;
+	left: 47px;
+	color: #FFFFFF;
+	font-size: 12;
+	font-weight: 700;
+	line-height: 2.5;
+	border-radius: 20px;
+	top:80;
+}
+#rightmenu{
+    position:absolute;
+    z-index: 3;
+	-webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color: #666;
+	top:185px;
+	left: 1110px;
+    width: 190px;
+    float: left;
+    height: 480px;
+    margin-right: 10px;
+	background-color: #FFFFFF;
+}
+#head{
+	position: absolute;
+	top:10px;
+	left:33%;
+	height: 70px;
+	border-radius:70px;	
+}
+#Button_1{
+	float: left;
+    background-color:rgba(34,75,143,1.00);
+	color: #FFFFFF;
+	height: 30px;
+	width: 50px;
+	margin: 120 0 0 10px;
+	border-radius:10px;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 30px;
+}
+#say_hello{
+	position: absolute;
+	top: 89px;
+	left: 37%
+}
